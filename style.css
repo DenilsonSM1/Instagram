@@ -1,6 +1,78 @@
 @font-face {
     font-family: 'Insta';
     src: url('./fonts/Demo_Fonts/Fontspring-DEMO-blue_vinyl_regular_ps_ot.otf ') format('opentype');
-   
-  }
-  
+
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+main {
+    width: 26%;
+    max-width: 43%;
+
+}
+
+header {
+    width: 100%;
+}
+
+.comeco_bar {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+
+}
+
+.comeco_bar h1 {
+    font-family: 'Insta';
+    font-weight: normal;
+
+}
+
+#coracao {
+    margin-left: 40px;
+}
+
+#camera {
+    margin-right: 70px;
+}
+
+.story {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.story_perfil img {
+    border-radius: 50%;
+    border: solid 2px rgb(215, 127, 5);
+
+    margin-right: 2px;
+
+}
+
+.perfil{
+    display: flex;
+    
+}
+.perfil_2{
+    width: 100%;
+    display: flex;
+}
+.perfil_2 img{
+    border-radius: 50%;
+}
