@@ -16,16 +16,23 @@ body {
     justify-content: center;
     align-items: center;
     margin: auto;
+    background-color: rgb(183, 182, 182);
+
 }
 
 main {
-    width: 26%;
-    max-width: 43%;
+    background-color: white;
+    width: 31%;
+    height: 100vh;
+    position: relative;
+
+
 
 }
 
 header {
-    width: 100%;
+    width: 92%;
+    margin: auto;
 }
 
 .comeco_bar {
@@ -33,6 +40,7 @@ header {
     justify-content: space-between;
     position: relative;
     width: 100%;
+    margin-bottom: 15px;
 
 }
 
@@ -53,8 +61,7 @@ header {
 .story {
     display: flex;
     justify-content: space-between;
-
-
+    overflow: auto;
 }
 
 .story_perfil img {
@@ -65,14 +72,52 @@ header {
 
 }
 
-.perfil{
+
+.perfil {
     display: flex;
+
+}
+
+.perfil_2 {
+    width: 84%;
+    display: flex;
+    margin: auto;
+
+}
+
+.perfil_2 img {
+    border-radius: 50%;
+    border: solid 2px rgb(215, 127, 5);
+}
+
+.perfil_2 p {
+    margin-left: 10px;
+    margin-top: 8px;
+}
+.avaliacao{
+    display:flex;
+    justify-content: space-between;
+    width: 27%;
+}
+
+#trespontos {
+    margin: auto;
+}
+
+.post {}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    position: absolute;
+    bottom: 1%;
+    margin-left: 20px;
+
+    
     
 }
-.perfil_2{
-    width: 100%;
-    display: flex;
-}
-.perfil_2 img{
+#profile_nav img{
     border-radius: 50%;
 }
